@@ -1,0 +1,88 @@
+
+TOPICS:
+1. How the internet works?
+2. Why? What is happening inside server?
+3. What server send to me?
+4. Recreate the process
+5. Content and style
+6. Dynamic content using Flask
+7. Project
+8. Github
+
+1. How the internet works?
+
+	_______________                                      _________________
+	|              |       request(blankwebsite.com)    |                 |
+	|    SERVER    |   <------------------------------  |     COMPUTER    |
+	|              |   ------------------------------>  |                 |
+	----------------         response(index.html)       -------------------
+	     
+	
+		
+2. Why? What is happening inside server?
+
+
+REQUEST   ->   ANALYZE ROUTE   ->  ADEQUATE RESPONSE  ->  SEND RESPONSE
+		  
+	   	     |                     |
+		     |                     |
+		     V                     V
+
+	        What is after          if uri == '/':
+	     the name of the site?     	 return index.html
+
+
+URL: google.com
+URI: /search?q=hello+world
+
+3. What the server send to me?
+
+	A HTML file (index.html)
+
+	This document is interpreted by your browser (Chrome, Firefox, Opera, IE11) to organize information and custom details.
+
+	All HTML files have a <html> tag to initiate the document, a <head> tag with metadada information (will see more later, not so important now) and a <body> tag with all the information that will be see.
+
+	Example: index.html	
+	"""
+	<html>
+	<head></head>
+	<body>
+		<h1>Hello World</h1>
+	</body>
+	</html>
+	"""
+4. Recreate the process
+
+"""
+pip install flask
+
+"""	
+
+Use to create a minimal application (https://flask.palletsprojects.com/en/1.1.x/quickstart/). Get more than two routes/pages.
+
+
+5. Content and style
+	5.1. Font
+	5.2. Color
+	5.3. Image
+	5.4. Margin and padding
+	5.5. CSS file
+
+6. Dynamic content using Flask
+	- Content
+SERVER SIDE RENDERING
+
+
+7. Project: 90's website
+
+http://nineties.website
+http://edition.cnn.com/US/OJ/
+http://www.dolekemp96.org/main.htm
+
+TASKS:
+
+
+
+
+
